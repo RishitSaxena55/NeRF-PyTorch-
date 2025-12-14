@@ -50,16 +50,17 @@ class NeRF(nn.Module):
         
         return outputs
 
-# Create a sample input tensor for NeRF
-batch_size = 4
-input_ch = 3
-input_ch_views = 3
-sample_input = torch.randn(batch_size, input_ch + input_ch_views)
 
-# Initialize the NeRF model
-nerf_model = NeRF(use_viewdirs=True)
+# # Create a sample input tensor for NeRF
+# batch_size = 4
+# input_ch = 3
+# input_ch_views = 3
+# sample_input = torch.randn(batch_size, input_ch + input_ch_views)
 
-# Forward pass
-outputs = nerf_model(sample_input)
+# # Initialize the NeRF model
+# nerf_model = NeRF(use_viewdirs=True)
 
-print(outputs.shape)
+# # Forward pass
+# outputs = nerf_model(sample_input)
+
+# print(outputs.shape)
