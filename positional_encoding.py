@@ -48,7 +48,7 @@ def get_embedder(multires, i=0):
     return embed, embedder_obj.out_dim
     
 # Example usage:
-res, dim = get_embedder(10)
-pos = torch.rand((10 * 64, 3))
-pose_embed_loc = res(pos)
-print(pose_embed_loc, pose_embed_loc.shape)
+# res, dim = get_embedder(10)
+# pos = torch.rand((10 * 64, 3))
+# pose_embed_loc = res(pos)
+# print(pose_embed_loc, pose_embed_loc.shape)
