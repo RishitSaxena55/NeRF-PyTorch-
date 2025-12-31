@@ -16,6 +16,12 @@
 
 > 🎯 **A modular, from-scratch implementation** of Neural Radiance Fields designed for research experimentation and transparent understanding of differentiable volume rendering.
 
+<div align="center">
+
+![NeRF Pipeline](imgs/pipeline.jpg)
+
+</div>
+
 ---
 
 ## 📌 About This Project
@@ -192,18 +198,18 @@ NeRF-PyTorch-/
 
 ---
 
-## 🎨 Results
+## 🎨 Capabilities
 
-The implementation successfully synthesizes novel views from learned scene representations:
+**Supported Datasets:**
+| Dataset | Scenes | Resolution |
+|---------|--------|------------|
+| **NeRF Synthetic** | Lego, Chair, Drums, Ficus, Hotdog, Materials, Mic, Ship | 800×800 |
+| **LLFF** | Fern, Flower, Fortress, Horns, Leaves, Orchids, Room, Trex | 1008×756 |
 
-<div align="center">
-
-| Scene | Novel View Synthesis |
-|-------|---------------------|
-| Lego | ![Lego](https://user-images.githubusercontent.com/7057863/78472232-cf374a00-7769-11ea-8871-0bc710951839.gif) |
-| Drums | ![Drums](https://user-images.githubusercontent.com/7057863/78472235-d1010d80-7769-11ea-9be9-51365180e063.gif) |
-
-</div>
+**Rendered Outputs:**
+- 🖼️ Novel view RGB images
+- 📏 Depth maps  
+- 🎥 360° video synthesis
 
 ---
 
